@@ -1,0 +1,10 @@
+CREATE TABLE user_data (
+    username VARCHAR(100) NOT NULL,
+    pass VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    CONSTRAINT pk_user PRIMARY KEY (username, email, phone),
+    CONSTRAINT chk_email CHECK (email ~ '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'),
+    CONSTRAINT chk_phone CHECK (phone ~ '^[0-9]{10,15}$')
+);
+ 

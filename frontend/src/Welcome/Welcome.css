@@ -1,0 +1,56 @@
+.background {
+    height: 100vh;
+  margin:0;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background: url('/assets/back.gif') center/cover no-repeat;
+    background-size: 150%;
+}
+
+
+
+.content{
+    background-color: rgb(255, 255, 255,0.5);
+    height:70vh;
+    width:90vh;
+    place-content: center;
+    place-items: center;
+    margin:auto;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px rgb(24, 16, 16) ;
+   background-blend-mode: darken;
+    
+}
+h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgb(31, 28, 28);
+    text-shadow: 1px 1px 20px rgb(248, 244, 244);
+
+ 
+}
+
+.buttons{
+    padding:30px;
+    display: flex;
+    gap:30px;
+}
+
+button{
+    height:50px;
+    width:110px;
+    border:5px solid;
+    border-radius:15px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    background-color: rgb(255, 255, 255,0.6);
+    background-blend-mode: lighten;
+    cursor: pointer;
+}
+

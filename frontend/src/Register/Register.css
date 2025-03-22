@@ -1,0 +1,36 @@
+.background_rg{
+    height: 100vh;
+  margin:0;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background: url('/assets/back.gif') center/cover no-repeat;
+    background-size: 150%;
+}
+input{
+    width:50vh;
+    height:20px;
+    border-radius: 5px;
+}
+
+
+.content_rg{
+    background-color: rgb(255, 255, 255,0.5);
+    height:70vh;
+    width:100vh;
+   
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px rgb(24, 16, 16) ;
+   background-blend-mode: darken;  
+}
+.content_rg h1{
+  text-align:  center;
+margin:0;
+padding-bottom: 10px;
+}
+
+.content_rg button{
+  width:150px;
+} 
